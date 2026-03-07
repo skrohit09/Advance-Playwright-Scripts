@@ -10,7 +10,7 @@ class DemoCheckOut {
     this.paymentMethod = page.locator("input[onclick='PaymentMethod.save()']");
     this.paymentInfo = page.locator("input[onclick='PaymentInfo.save()']");
     this.orderConfirmation = page.locator(".confirm-order-next-step-button");
-    this.orderSuccessMessage = page.locator("h1.title");
+    this.orderSuccessMessage = page.locator('.title')
     this.orderCompletion = page.locator(".order-completed-continue-button");
   }
 

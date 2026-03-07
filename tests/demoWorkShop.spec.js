@@ -35,7 +35,7 @@ test("Buy Computing and Internet Book", async ({ page }) => {
   const demoShoppingCart = new DemoShoppingCart(page);
   const demoCheckOut = new DemoCheckOut(page);
 
-  const email = "unknownsk@gmail.com";
+  const email = "unknownskr@gmail.com";
   const password = "Unknown";
 
   // Login
